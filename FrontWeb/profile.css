@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+#navbar #logo {
+  width: 80px;
+}
+
+#navbar #iconSearch {
+    width: 25px; 
+    margin-left: -55px;
+}
+/* #navbar #divBtn1{
+  flex-direction: row-reverse;
+} */
+#navbar #btnLogin{
+    background-color: #ffecb4;
+    margin-left: -15px;
+    /* margin-right: -15px; */
+    border-radius: 0 50px 50px 0;
+}
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: silver;
+    margin-top: 10px;
+}
+#profileImg{
+    width: 150px;
+}
+
+
+@media only screen and (max-width: 992px){
+    *{
+        font-size: 14px;
+    }
+    #navbar #logo{
+        width: 50px;
+    }
+    #navbar #btnLogin, #navbar #btnSignup{
+        font-size: 14px;
+    }
+    #profileImg{
+        width: 100px;
+    }
+    body {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #navbar .navbar-nav .col-1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    *{
+        font-size: 12px;
+    }
+    #navbar #logo{
+        width: 35px;
+    }
+    #navbar .navbar-nav{
+        flex-direction: row !important;
+    }
+    #navbar .navbar-nav .col-1, #navbar .navbar-nav .col-2{
+        display: none;
+    }
+    #navbar li a{
+        padding: 0;
+        height: 35px;
+    }
+    #logo{
+        width: 40px;
+    }
+    #btnLogin{
+        display: none;
+    }
+    #navbar #btnSignup{
+        padding: 2px 0;
+        height: 27px;
+    }
+}

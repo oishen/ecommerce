@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#btnOffcanva{
+  position: fixed; 
+  top: 50%; 
+  transform: translate(0, -50%);
+}
+
+#line1{
+  width: 100%;
+  height: 1px;
+  background-color: silver;
+  margin: 20px 0 20px;
+}
+
+#circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bannerImg, #productImg{
+  width: 70%;
+  margin: auto;
+
+}
+
+#logo {
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 20px;
+}
+
+#sec1 h6 {
+  margin: auto 0;
+  padding-right: 20px;
+}
+
+#sec1 #block1 {
+  align-items: center;
+  display: flex;
+}
+
+#sec1 #inputsearch {
+  width: 300px;
+  height: 35px;
+  padding: 0 10px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border: 1px solid gray;
+  outline: none;
+}
+
+#sec1 #iconsearch {
+  width: 35px;
+  border: 1px solid gray;
+  padding: 3px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(233, 233, 233);
+}
+
+#sec1 #btncreate {
+  height: 40px;
+  align-items: center;
+}
+
+#btncreate img {
+  width: 15px;
+  height: 15px;
+}
+#btncreate p {
+  margin: auto 5px;
+  color: white;
+  font-weight: 600;
+}
+
+.modal #btnsubmit {
+  padding: 5px 10px;
+  background-color: #ffc107;
+  border: none;
+}
+
+.modal label{
+  width: 120px;
+}
+
+.modal #labelfile {
+  border: 1px dashed gray;
+  padding: 30px 40px;
+  width: 96%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.modal #input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+#error {
+  width: 100%;
+  color: rgb(235, 75, 75);
+  border: 1px solid rgb(235, 75, 75);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#img {
+  height: 100px;
+}
+#offcanva2 {
+    display: none;
+}
+#delete tr:nth-child(2){
+  height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  #myDIV {
+    height: auto;
+    width: 100vw;
+    overflow: auto;
+  }
+
+  .table {
+    width: 700px;
+  }
+  #logo {
+    width: 50px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  #sec1 h6 {
+    margin: auto 0;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+  #sec1 #inputsearch {
+    width: 200px;
+    height: 30px;
+    padding: 0 10px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 12px;
+  }
+
+  #sec1 #iconsearch {
+    width: 30px;
+    border: 1px solid gray;
+    padding: 3px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(233, 233, 233);
+  }
+  #btncreate img {
+    width: 10px;
+    height: 10px;
+  }
+  #btncreate p {
+    margin: auto 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  #sec1 #btncreate {
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  td {
+    font-size: 12px;
+  }
+  #img {
+    height: 80px;
+  }
+
+
+}
